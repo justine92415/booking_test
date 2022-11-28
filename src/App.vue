@@ -1,4 +1,6 @@
 <template>
+    <router-link to="/">日曆</router-link> |
+    <router-link to="/about">會員中心</router-link>
     <router-view />
 </template>
 
