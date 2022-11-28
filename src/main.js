@@ -1,6 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import { createApp } from "vue";
+import ViewUIPlus from "view-ui-plus";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
+import "view-ui-plus/dist/styles/viewuiplus.css";
 
-createApp(App).use(store).use(router).mount('#app')
+createApp(App).use(store).use(router).use(ViewUIPlus).mount("#app");
+// dayjs(d).isBetween("2022-11-01", "2022-11-30", "day", "[]")
